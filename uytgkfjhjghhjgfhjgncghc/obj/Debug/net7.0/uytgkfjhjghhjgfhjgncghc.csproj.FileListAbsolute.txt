@@ -1,0 +1,15 @@
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/bin/Debug/net7.0/uytgkfjhjghhjgfhjgncghc
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/bin/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.deps.json
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/bin/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.runtimeconfig.json
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/bin/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.dll
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/bin/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.pdb
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.csproj.AssemblyReference.cache
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.AssemblyInfoInputs.cache
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.AssemblyInfo.cs
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.csproj.CoreCompileInputs.cache
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.dll
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/refint/uytgkfjhjghhjgfhjgncghc.dll
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.pdb
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/uytgkfjhjghhjgfhjgncghc.genruntimeconfig.cache
+/Users/daniil/Documents/си шарп/работы C#/uytgkfjhjghhjgfhjgncghc/uytgkfjhjghhjgfhjgncghc/obj/Debug/net7.0/ref/uytgkfjhjghhjgfhjgncghc.dll
