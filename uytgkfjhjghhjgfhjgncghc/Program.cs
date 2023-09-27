@@ -4,7 +4,6 @@
     {
         static void Main()
         {
-
             deistviya();
         }
         static void ugadayChislo()
@@ -19,7 +18,7 @@
                 {
                     Console.WriteLine("красавчик брат");
                 }
-                else if (chisloman > chislo)
+                else if (ch    isloman > chislo)
                 {
                     Console.WriteLine("много даешь брат");
                 }
@@ -28,7 +27,6 @@
                     Console.WriteLine("мало даешь брат");
                     break;
                 }
-
             }
         }
         static void tablicaUmnozheniya()
@@ -40,7 +38,6 @@
                 {
                     Console.Write(i * h + " \t " );
                 }
-
                 Console.WriteLine();
             }
         }
@@ -54,10 +51,8 @@
             {
                 if (num % i == 0)
                     Console.WriteLine("Число делится без остатка на "+ i);
-
             }
         }
-
         static void deistviya()
         {
             while (true)
