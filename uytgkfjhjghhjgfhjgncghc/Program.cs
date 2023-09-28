@@ -46,7 +46,7 @@
             Console.WriteLine("Введите число");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            int i = 1;
+            int i = 0;
             while (i <= num) i++;
             {
                 if (num % i == 0)
