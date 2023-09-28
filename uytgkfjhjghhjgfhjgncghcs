@@ -1,4 +1,4 @@
-﻿namespace rabotyaga
+namespace rabotyaga
 {
     internal class Kirieshki
     {
@@ -10,7 +10,7 @@
         {
             Random randomnik = new Random();
             int chislo = randomnik.Next(0, 100);
-            Console.WriteLine("Попробуй угадай: ");
+            Console.WriteLine("угадай рандомное число ");
             while (true)
             {
                 int chisloman = Convert.ToInt32(Console.ReadLine());
@@ -18,7 +18,7 @@
                 {
                     Console.WriteLine("красавчик брат");
                 }
-                else if (ch    isloman > chislo)
+                else if (chisloman > chislo)
                 {
                     Console.WriteLine("много даешь брат");
                 }
@@ -43,14 +43,14 @@
         }
         static void deliteliChisla()
         {
-            Console.WriteLine("Введите число");
+            Console.WriteLine("введи число");
             int num = Convert.ToInt32(Console.ReadLine());
-
             int i = 0;
-            while (i <= num) i++;
+            while (i <= num)
             {
+                i++;
                 if (num % i == 0)
-                    Console.WriteLine("Число делится без остатка на "+ i);
+                    Console.WriteLine("число  делится на "+ i);
             }
         }
         static void deistviya()
@@ -60,7 +60,6 @@
                 Console.WriteLine("1 - угадайка ");
                 Console.WriteLine("2 - таблица умножения");
                 Console.WriteLine("3 - делители числа");
-                Console.WriteLine("4 - выход");
                 Console.WriteLine("выбор действия");
                 int deisviye = Convert.ToInt32(Console.ReadLine());
                 if (deisviye == 1)
@@ -74,10 +73,6 @@
                 else if (deisviye == 3)
                 {
                     deliteliChisla();
-                }
-                else if (deisviye == 4)
-                {
-                    break;
                 }
             }
 
