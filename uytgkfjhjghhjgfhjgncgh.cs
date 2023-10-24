@@ -3,7 +3,7 @@ namespace rabotyaga
     internal class Kirieshki
     {
         static void Main()
-        {
+        {   
             deistviya();
         }
         static void ugadayChislo()
@@ -17,6 +17,7 @@ namespace rabotyaga
                 if (chisloman == chislo)
                 {
                     Console.WriteLine("красавчик брат");
+                    break;
                 }
                 else if (chisloman > chislo)
                 {
@@ -25,18 +26,25 @@ namespace rabotyaga
                 else if (chisloman < chislo)
                 {
                     Console.WriteLine("мало даешь брат");
-                    break;
                 }
             }
         }
         static void tablicaUmnozheniya()
         {
-            
-            for (int i = 1; i<=9;i++)   
+            int[ , ] matrica = new int[9, 9];
+
+            for (int i = 1; i <= 9; i++)
             {
-                for (int h = 1; h<=9; h++)
+                for (int j = 1; j <= 9; j++)
                 {
-                    Console.Write(i * h + " \t " );
+                    matrica[i - 1, j - 1] = i * j;
+                }
+            }
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    Console.Write(matrica[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
@@ -55,22 +63,26 @@ namespace rabotyaga
         }
         static void deistviya()
         {
-            while (true)
-            {
+            int deistviye = 0;
+
+            while (deistviye !=4)
+            { 
                 Console.WriteLine("1 - угадайка ");
                 Console.WriteLine("2 - таблица умножения");
                 Console.WriteLine("3 - делители числа");
+                Console.WriteLine("4 - выход");
                 Console.WriteLine("выбор действия");
-                int deisviye = Convert.ToInt32(Console.ReadLine());
-                if (deisviye == 1)
+                deistviye = Convert.ToInt32(Console.ReadLine());
+
+                if (deistviye == 1)
                 {
                     ugadayChislo();
                 }
-                else if (deisviye == 2)
+                else if (deistviye == 2)
                 {
                     tablicaUmnozheniya();
                 }
-                else if (deisviye == 3)
+                else if (deistviye == 3)
                 {
                     deliteliChisla();
                 }
