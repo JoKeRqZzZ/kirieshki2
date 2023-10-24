@@ -11,12 +11,15 @@ namespace rabotyaga
             Random randomnik = new Random();
             int chislo = randomnik.Next(0, 100);
             Console.WriteLine("угадай рандомное число ");
+            int popitka = 0;
             while (true)
             {
                 int chisloman = Convert.ToInt32(Console.ReadLine());
+                popitka++;
                 if (chisloman == chislo)
                 {
                     Console.WriteLine("красавчик брат");
+                    Console.WriteLine("с " + popitka +"попытки угадал");
                     break;
                 }
                 else if (chisloman > chislo)
@@ -31,13 +34,13 @@ namespace rabotyaga
         }
         static void tablicaUmnozheniya()
         {
-            int[ , ] matrica = new int[9, 9];
+            int[,] matrica = new int[9, 9];
 
-            for (int i = 1; i <= 9; i++)
+            for (int i = 0; i < 9; i++)
             {
-                for (int j = 1; j <= 9; j++)
+                for (int j = 0; j < 9; j++)
                 {
-                    matrica[i - 1, j - 1] = i * j;
+                    matrica[i, j] = (i + 1) * (j + 1);
                 }
             }
             for (int i = 0; i < 9; i++)
@@ -49,6 +52,7 @@ namespace rabotyaga
                 Console.WriteLine();
             }
         }
+
         static void deliteliChisla()
         {
             Console.WriteLine("введи число");
